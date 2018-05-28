@@ -15,7 +15,7 @@
 		3403A4D01FC420900016EB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3403A4CE1FC420900016EB13 /* LaunchScreen.storyboard */; };
 		3403A4DB1FC420900016EB13 /* XBScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3403A4DA1FC420900016EB13 /* XBScrollViewDemoTests.m */; };
 		3403A4E61FC420900016EB13 /* XBScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3403A4E51FC420900016EB13 /* XBScrollViewDemoUITests.m */; };
-		3403A4F61FC420990016EB13 /* XBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3403A4F51FC420990016EB13 /* XBScrollView.m */; };
+		3473AAB920BBB7D20027A025 /* XBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3473AAB720BBB7D20027A025 /* XBScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		3403A4E11FC420900016EB13 /* XBScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3403A4E51FC420900016EB13 /* XBScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBScrollViewDemoUITests.m; sourceTree = "<group>"; };
 		3403A4E71FC420900016EB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3403A4F41FC420990016EB13 /* XBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBScrollView.h; sourceTree = "<group>"; };
-		3403A4F51FC420990016EB13 /* XBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBScrollView.m; sourceTree = "<group>"; };
+		3473AAB720BBB7D20027A025 /* XBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBScrollView.m; sourceTree = "<group>"; };
+		3473AAB820BBB7D20027A025 /* XBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		3403A4BF1FC420900016EB13 /* XBScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3403A4F31FC420990016EB13 /* Classes */,
+				3473AAB620BBB7D20027A025 /* Classes */,
 				3403A4C31FC420900016EB13 /* AppDelegate.h */,
 				3403A4C41FC420900016EB13 /* AppDelegate.m */,
 				3403A4C61FC420900016EB13 /* ViewController.h */,
@@ -144,13 +144,14 @@
 			path = XBScrollViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		3403A4F31FC420990016EB13 /* Classes */ = {
+		3473AAB620BBB7D20027A025 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3403A4F41FC420990016EB13 /* XBScrollView.h */,
-				3403A4F51FC420990016EB13 /* XBScrollView.m */,
+				3473AAB820BBB7D20027A025 /* XBScrollView.h */,
+				3473AAB720BBB7D20027A025 /* XBScrollView.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3403A4F61FC420990016EB13 /* XBScrollView.m in Sources */,
 				3403A4C81FC420900016EB13 /* ViewController.m in Sources */,
+				3473AAB920BBB7D20027A025 /* XBScrollView.m in Sources */,
 				3403A4C51FC420900016EB13 /* AppDelegate.m in Sources */,
 				3403A4C21FC420900016EB13 /* main.m in Sources */,
 			);
@@ -528,6 +529,7 @@
 				3403A4EC1FC420900016EB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3403A4ED1FC420900016EB13 /* Build configuration list for PBXNativeTarget "XBScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				3403A4EF1FC420900016EB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3403A4F01FC420900016EB13 /* Build configuration list for PBXNativeTarget "XBScrollViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +547,7 @@
 				3403A4F21FC420900016EB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
